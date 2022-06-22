@@ -1,0 +1,17 @@
+version: "3.3"
+
+services:
+
+  atsflutterassets:
+    image: atsflutterassets:0.0.1
+    build: .
+    
+    networks:
+      - atsflutterassets
+    ports:
+      - 80:80
+    
+
+networks:
+  atsflutterassets:
+
